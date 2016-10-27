@@ -1,0 +1,9 @@
+[package]
+name = "wbem"
+version = "0.1.0"
+
+[dependencies]
+winapi = "0.2"
+com-core = { path = "../../com-rs/com-core", version = "0.1" }
+com-types = { path = "../../com-rs/com-types", version = "0.1" }
+wbem-sys = { path = "../wbem-sys", version = "0.1" }

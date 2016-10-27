@@ -1,0 +1,7 @@
+[package]
+name = "wbem-sys"
+version = "0.1.0"
+
+[dependencies]
+winapi = "0.2"
+com-sys = { path = "../../com-rs/com-sys", version = "0.1" }
